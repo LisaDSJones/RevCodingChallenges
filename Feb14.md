@@ -13,7 +13,3 @@ public static String actualMemorySize (String startSize) {
 	return answer + bytes;
 }
 ```
-
-
-double size = Double.parseDouble(memSize.substring(0, memSize.length() - 2)) * 0.93;
-    String unit = memSize.substring(memSize.length() - 2);
